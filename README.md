@@ -1,1 +1,2 @@
 # pandas-challenge
+For this assignment, I heavily relied on the AskBCS section in Slack to connect with a academic tutor and walk through some of the errors I had. For example, I had issues with creating the per_school_summary dataframe as I was getting Series error. The tutor, clearly and concisely helped guide me to the solution without directly telling me the answer per_school_types = school_data.groupby('school_name')['type'].first(). I also looked towards online resources to research what certain python functions do and their respective arguments. 
